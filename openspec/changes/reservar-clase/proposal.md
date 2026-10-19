@@ -14,7 +14,7 @@ Los socios del gimnasio no tienen forma de asegurar su lugar en una clase grupal
 ## Capabilities
 
 ### New Capabilities
-- `reserva-clase`: reserva de cupos en clases grupales por parte de un socio, incluyendo control de disponibilidad, rechazo por clase completa y validación de exclusividad por horario.
+- `reservar-clase`: reserva de cupos en clases grupales por parte de un socio, incluyendo control de disponibilidad, rechazo por clase completa y validación de exclusividad por horario.
 
 ### Modified Capabilities
 <!-- Sin cambios: el proyecto no cuenta aún con specs existentes. -->
