@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from enum import Enum
 
 from pydantic import BaseModel, Field
@@ -33,3 +34,4 @@ class Reserva(BaseModel):
     socio_id: str
     clase_id: str
     estado: EstadoReserva = EstadoReserva.activa
+    creada_en: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))

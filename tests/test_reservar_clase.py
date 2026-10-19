@@ -17,13 +17,13 @@ def almacen() -> Almacen:
         Socio(id="s2", nombre="Beto", estado_membresia=EstadoMembresia.activa)
     )
     a.agregar_clase(
-        Clase(id="yoga", nombre="Yoga", horario="18:00", cupo_maximo=1, instructor="Lucía")
+        Clase(id="yoga", nombre="Yoga", horario="2026-10-19T18:00:00+00:00", cupo_maximo=1, instructor="Lucía")
     )
     a.agregar_clase(
-        Clase(id="spinning", nombre="Spinning", horario="18:00", cupo_maximo=5, instructor="Marcos")
+        Clase(id="spinning", nombre="Spinning", horario="2026-10-19T18:00:00+00:00", cupo_maximo=5, instructor="Marcos")
     )
     a.agregar_clase(
-        Clase(id="pilates", nombre="Pilates", horario="20:00", cupo_maximo=1, instructor="Sara")
+        Clase(id="pilates", nombre="Pilates", horario="2026-10-19T20:00:00+00:00", cupo_maximo=1, instructor="Sara")
     )
     return a
 
